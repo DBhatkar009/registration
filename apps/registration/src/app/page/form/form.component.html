@@ -1,3 +1,17 @@
+
+<!-- <p-accordion>
+  <p-accordionTab header="Header 1">
+     Content 1
+  </p-accordionTab>
+  <p-accordionTab header="Header 2">
+      Content 2
+  </p-accordionTab>
+  <p-accordionTab header="Header 3">
+      Content 3
+  </p-accordionTab>
+</p-accordion> -->
+
+
 <div class="card shadow-4">
   <h5>Forms</h5>
   <p-tabMenu [model]="items" [activeItem]="activeItem"></p-tabMenu>
@@ -6,60 +20,67 @@
   <div class="p-fluid formgrid grid">
       <div class="field col-12 md-6">
           <label for="firstname6">Firstname</label>
-          <input id="firstname6" type="text" pInputText formControlName="firstname">
+          <input id="firstname6" type="text" pInputText>
       </div>
       <div class="field col-12 md-6">
           <label for="lastname6">Lastname</label>
-          <input id="lastname6" type="text" pInputText formControlName="lastname">
+          <input id="lastname6" type="text" pInputText>
       </div>
       <div class="field col-12">
           <label for="address">Address</label>
-          <textarea id="address" type="text" rows="4" pInputTextarea formControlName="address"></textarea>
+          <textarea id="address" type="text" rows="4" pInputTextarea></textarea>
       </div>
       <div class="field col-12 md-6">
           <label for="city">City</label>
-          <input id="city" type="text" pInputText formControlName="city">
+          <input id="city" type="text" pInputText>
       </div>
       <div class="field col-12 md-4">
         <label for="dropdown">Dropdown</label>
-        <span class="float-label">
+        <span class="p-float-label">
           <p-dropdown
             inputId="dropdown"
             [autoDisplayFirst]="false"
             [options]="cities"
             [(ngModel)]="value8"
-            optionLabel="name"></p-dropdown>
+            optionLabel="name"
+          ></p-dropdown>
         </span>
       </div>
       <div class="field col-12 md-4">
         <label for="multiselect">MultiSelect</label>
-        <span class="float-label">
+        <span class="p-float-label">
           <p-multiSelect
             inputId="multiselect"
             [options]="cities"
             [(ngModel)]="value9"
             optionLabel="name"
-            [filter]="false"></p-multiSelect>
+            [filter]="false"
+          ></p-multiSelect>
         </span>
       </div>
       <div class="field col-12 md-4">
         <label for="icon">Icon</label>
         <p-calendar [(ngModel)]="date3" [showIcon]="true" inputId="icon"></p-calendar>
     </div>
+
       <div class="field col-12 md-4">
           <label for="zip">Zip</label>
           <input id="zip" type="text" pInputText>
       </div>
+
       <div class="field-radiobutton">
         <p-radioButton name="city" value="New York" [(ngModel)]="city" inputId="city3"></p-radioButton>
         <label for="city3">Yes</label>
     </div>
+    &nbsp;
+    &nbsp;
     <div class="field-radiobutton">
         <p-radioButton name="city" value="San Francisco" [(ngModel)]="city" inputId="city4"></p-radioButton>
         <label for="city4">No</label>
     </div>
-    <p-toggleButton class="p-d-block mx-auto" [(ngModel)]="checked2" onLabel="Iaccept"offLabel="I reject" onIcon="check" offIcon="times" [style]="{'width': '10em'}"></p-toggleButton>
+    <p-toggleButton class="p-d-block mx-auto" [(ngModel)]="checked2" onLabel="I accept" offLabel="I reject" onIcon="check" offIcon="times" [style]="{'width': '10em'}"></p-toggleButton>
   </div>
 </div>
+
 
 <!-- <p>form works!</p> -->
