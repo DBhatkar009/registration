@@ -6,6 +6,7 @@
 @import '~primeng/resources/primeng.min.css';
 @import '~primeflex/primeflex.css';
 
+@import '~mdb-ui-kit/css/mdb.min.css';
 
 .card{
   margin: 2rem;
@@ -26,4 +27,12 @@
 
 .demo-container {
   border: 1px solid var(--surface-d);
+}
+
+
+.vertical-container {
+  margin: 0;
+  height: 200%;
+  background: var(--surface-d);
+  border-radius: 4px;
 }

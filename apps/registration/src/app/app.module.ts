@@ -25,7 +25,7 @@ import { SplitButtonModule } from 'primeng/splitbutton';
 import { ToggleButtonModule } from 'primeng/togglebutton';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
-const routes: Routes = [{ path: 'Forms', component: FormComponent },]
+const routes: Routes = [{ path: '', component: FormComponent },]
 @NgModule({
   declarations: [AppComponent, FormComponent, FooterComponent, HeaderComponent],
   imports: [
