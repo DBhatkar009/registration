@@ -11,15 +11,15 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^12.2.0",
+    "@angular/animations": "^13.4.0",
     "@angular/cdk": "^12.2.7",
-    "@angular/common": "^12.2.0",
-    "@angular/compiler": "^12.2.0",
-    "@angular/core": "^12.2.0",
-    "@angular/forms": "^12.2.0",
-    "@angular/platform-browser": "^12.2.0",
-    "@angular/platform-browser-dynamic": "^12.2.0",
-    "@angular/router": "^12.2.0",
+    "@angular/common": "^13.4.0",
+    "@angular/compiler": "^13.4.0",
+    "@angular/core": "^13.4.0",
+    "@angular/forms": "^13.4.0",
+    "@angular/platform-browser": "^13.4.0",
+    "@angular/platform-browser-dynamic": "^13.4.0",
+    "@angular/router": "^13.4.0",
     "@fortawesome/fontawesome-free": "~5.6.3",
     "@nrwl/angular": "12.9.0",
     "@techiediaries/ngx-qrcode": "^9.1.0",
@@ -38,13 +38,13 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~12.2.0",
+    "@angular-devkit/build-angular": "~13.3.11",
     "@angular-eslint/eslint-plugin": "~12.3.0",
     "@angular-eslint/eslint-plugin-template": "~12.3.0",
     "@angular-eslint/template-parser": "~12.3.0",
-    "@angular/cli": "~12.2.0",
-    "@angular/compiler-cli": "^12.2.0",
-    "@angular/language-service": "^12.2.0",
+    "@angular/cli": "~13.3.11",
+    "@angular/compiler-cli": "^13.4.0",
+    "@angular/language-service": "^13.4.0",
     "@nrwl/cli": "12.9.0",
     "@nrwl/cypress": "12.9.0",
     "@nrwl/eslint-plugin-nx": "12.9.0",
@@ -64,6 +64,6 @@
     "jest-preset-angular": "9.0.7",
     "prettier": "^2.3.1",
     "ts-jest": "27.0.3",
-    "typescript": "~4.3.5"
+    "typescript": "~4.6.4"
   }
 }
