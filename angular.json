@@ -124,8 +124,10 @@
   },
   "cli": {
     "analytics": false,
-    "defaultCollection": "@nrwl/angular",
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "schematicCollections": [
+      "@nrwl/angular"
+    ]
   },
   "schematics": {
     "@nrwl/angular": {
@@ -153,6 +155,5 @@
     "@nrwl/angular:component": {
       "style": "scss"
     }
-  },
-  "defaultProject": "registration"
+  }
 }
