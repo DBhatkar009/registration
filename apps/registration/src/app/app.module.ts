@@ -24,6 +24,8 @@ import { RadioButtonModule } from 'primeng/radiobutton';
 import { SplitButtonModule } from 'primeng/splitbutton';
 import { ToggleButtonModule } from 'primeng/togglebutton';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { NgxQRCodeModule } from '@techiediaries/ngx-qrcode';
+import { QRCodeModule } from 'angular2-qrcode';
 
 const routes: Routes = [{ path: '', component: FormComponent },]
 @NgModule({
@@ -48,7 +50,9 @@ const routes: Routes = [{ path: '', component: FormComponent },]
     RadioButtonModule,
     SplitButtonModule,
     ToggleButtonModule,
-    MDBBootstrapModule
+    MDBBootstrapModule,
+    NgxQRCodeModule,
+    QRCodeModule
   ],
   providers: [],
   bootstrap: [AppComponent],

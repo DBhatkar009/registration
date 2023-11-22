@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgxQrcodeElementTypes, NgxQrcodeErrorCorrectionLevels } from '@techiediaries/ngx-qrcode';
 import { MenuItem } from 'primeng/api';
 @Component({
   selector: 'greenbits-form',
@@ -6,6 +7,10 @@ import { MenuItem } from 'primeng/api';
   styleUrls: ['./form.component.scss']
 })
 export class FormComponent implements OnInit {
+  elementType = NgxQrcodeElementTypes.URL;
+  correctionLevel = NgxQrcodeErrorCorrectionLevels.HIGH;
+  value = 'https://www.techiediaries.in/';
+  dataToString = 'https://www.techiediaries.in/'
   selectedState: any = null;
   city!: string;
   items!: MenuItem[];
